@@ -6,6 +6,10 @@ Agent skills to search, preview, and download free 3D models, then help an AI ag
 
 We plan to add **more trusted sources of high-quality, freely accessible 3D models** over time. Each new source will be evaluated for clear provenance and licensing, model quality, useful previews and metadata, and reliable downloads.
 
+![Twelve 3D model examples: a robot arm, fox, forklift, espresso robot, drill, dragon, chair, lighthouse, cart, treasure chest, banana, and storybook world](docs/images/model-showcase.png)
+
+An AI-assisted showcase based on **12 real catalog previews**, from useful everyday props to characters and miniature worlds. [View the original previews, model sources, and image credits](docs/images/ATTRIBUTION.md#model-showcase).
+
 ## What you can do
 
 - Describe an idea and find existing models that could serve as a starting point.
@@ -38,13 +42,12 @@ Discovery and download require **Python 3.10+** and use only the standard librar
 
 Scenario additions stay after valid primary candidates. A result count alone does not prove relevance: the agent must inspect previews and judge the object, silhouette, and style against the user's idea.
 
-### Example previews
+### Explore the showcased models
 
-| NVIDIA SimReady example | Scenario supplementary example |
-| --- | --- |
-| ![A metal cart from NVIDIA SimReady](docs/images/simready-cart.jpg) | ![An AI-generated wooden cart from Scenario](docs/images/scenario-cart.jpg) |
+- **Practical and industrial:** [Robot arm](https://huggingface.co/datasets/Comau/S18-17/blob/248209fbe5d1bb891026f5afa55241fb472ac3e1/S18-17/simready_usd/S18-17.usda) · [Forklift](https://huggingface.co/datasets/nvidia/simready-assets/blob/653d91e182011f357cf1644013cc94ddf194d349/vehicle_forklift_red_c01/simready_usd/sm_vehicle_forklift_red_c01_01.usd) · [Power tools](https://huggingface.co/datasets/nvidia/simready-assets/blob/653d91e182011f357cf1644013cc94ddf194d349/powerTool_drill_b01/simready_usd/sm_powerTool_drill_b01_01.usd) · [Office chair](https://huggingface.co/datasets/nvidia/simready-assets/blob/653d91e182011f357cf1644013cc94ddf194d349/chair_office_fabric_manager_a01/simready_usd/sm_chair_office_fabric_manager_a01_01.usd) · [Utility cart](https://huggingface.co/datasets/nvidia/simready-assets/blob/653d91e182011f357cf1644013cc94ddf194d349/cart_mobile_a01/simready_usd/sm_cart_mobile_a01_01.usd) · [Everyday props](https://huggingface.co/datasets/nvidia/simready-assets/blob/524747d9b5e1f21b5b18b56041788c01d745f1a1/food_produce_banana_m01/simready_usd/sm_food_produce_banana_m01_01.usd)
+- **Characters and miniature worlds:** [Fox character](https://huggingface.co/datasets/scenario-labs/3d-collection/blob/55b4c002b4c1529fc48da3dff98516c3069bfa3f/assets/scenario_asset_Vt5PsLJN1FCMz5hHJ9AEb566/output.glb) · [Espresso robot](https://huggingface.co/datasets/scenario-labs/3d-collection/blob/55b4c002b4c1529fc48da3dff98516c3069bfa3f/assets/fcf5aeaad49680cd/7e4ad3035404d08c.blend) · [Friendly dragon](https://huggingface.co/datasets/scenario-labs/3d-collection/blob/55b4c002b4c1529fc48da3dff98516c3069bfa3f/assets/scenario_asset_BCGBN3ELfyFjyzHmaw8AyEq2/output.glb) · [Island lighthouse](https://huggingface.co/datasets/scenario-labs/3d-collection/blob/55b4c002b4c1529fc48da3dff98516c3069bfa3f/assets/scenario_asset_Fjq4SnzZnTQ8sg22jANRvu6D/output.glb) · [Treasure chest](https://huggingface.co/datasets/scenario-labs/3d-collection/blob/55b4c002b4c1529fc48da3dff98516c3069bfa3f/assets/scenario_asset_4HvXzgYcWfE5WaT1FcK9R1ZQ/output.glb) · [Storybook world](https://huggingface.co/datasets/scenario-labs/3d-collection/blob/55b4c002b4c1529fc48da3dff98516c3069bfa3f/assets/scenario_asset_N96j6kkqVxkLs8FKNPsMMPj5/output.glb)
 
-These examples illustrate different source styles. Preview credits, pinned source links, and licenses are listed in [image attribution](docs/images/ATTRIBUTION.md).
+These examples illustrate the range of the integrated sources. Exact original renders and license references are available in [image attribution](docs/images/ATTRIBUTION.md#model-showcase).
 
 ## Use the skill
 

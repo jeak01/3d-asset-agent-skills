@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.work/
+.test-tmp/
+.simready-cache/
+examples/

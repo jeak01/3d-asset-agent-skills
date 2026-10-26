@@ -1,0 +1,6 @@
+interface:
+  display_name: "SimReady 3D Assistant"
+  short_description: "Find SimReady assets with Scenario as a supplementary source"
+  default_prompt: "Use $simready-3d-assistant to search Central for my idea, use NVIDIA only if Central is unreachable, and consult Scenario for missing suitable candidates. Show previews, licenses and download options before adapting a model."
+policy:
+  allow_implicit_invocation: true

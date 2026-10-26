@@ -330,6 +330,8 @@ def inspect_asset(http, url):
                      and "/textures/" not in p.lower()]
     preview_paths.sort(key=lambda p: ("thumbnail" not in p.lower(), "transparent" in p.lower(), len(p)))
     license_id = descriptor.get("license") or "UNKNOWN"
+    if isinstance(license_id, str) and license_id.strip().upper() in PERMISSIVE:
+        license_id = license_id.strip().upper()
     license_present = LICENSE in files
     if not license_present:
         warnings.append("Expected package license text is absent; permission needs review.")

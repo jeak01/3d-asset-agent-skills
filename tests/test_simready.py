@@ -218,6 +218,15 @@ class SimReadyTests(unittest.TestCase):
         self.opener.start()
         self.assertEqual(self.plan()["license_status"], "needs_review")
 
+    def test_lowercase_permissive_license_is_recognized(self):
+        self.fixture = Fixture("cc-by-4.0")
+        self.opener.stop()
+        self.opener = patch.object(s.request, "urlopen", self.fixture.open)
+        self.opener.start()
+        plan = self.plan()
+        self.assertEqual(plan["license"], "CC-BY-4.0")
+        self.assertEqual(plan["license_status"], "permissive_declared")
+
     def test_complete_download_keeps_dependencies_license_and_zip(self):
         plan = self.plan()
         result = s.download_package(self.http, plan, self.work / "downloads", 1024 * 1024, True)

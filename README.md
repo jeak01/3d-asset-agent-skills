@@ -142,3 +142,15 @@ Live checks on October 26, 2026 covered Central search, NVIDIA fallback search, 
 ## Project license
 
 The original code and skill instructions in this repository are released under the [MIT License](LICENSE). Downloaded models and third-party preview images retain their respective upstream licenses. This repository does not bundle the model collections and is not affiliated with or endorsed by NVIDIA, Scenario, or Hugging Face.
+
+---
+
+## Sponsor
+
+This project is sponsored by **[AI Stylebook](https://aistylebook.com)**, a resource for visual styles, art references, and creative inspiration.
+
+**Website:** [aistylebook.com](https://aistylebook.com)
+
+<a href="https://aistylebook.com" target="_blank" rel="noopener noreferrer">
+  <img src="docs/images/sponsors/aistylebook-banner.png" alt="AI Stylebook — Visual styles, art references, and inspiration" width="100%" />
+</a>

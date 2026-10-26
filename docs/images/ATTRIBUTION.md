@@ -1,4 +1,4 @@
-# Preview image attribution
+# Image attribution
 
 These third-party previews illustrate the integrated sources. They retain
 their upstream licenses and are excluded from the project's MIT license.
@@ -140,3 +140,11 @@ Unmodified source previews are stored in `showcase/`. Exact source renders, orig
 - Source license declaration: https://huggingface.co/datasets/scenario-labs/3d-collection/resolve/55b4c002b4c1529fc48da3dff98516c3069bfa3f/LICENSE
 - Declared license: CC-BY-4.0, https://creativecommons.org/licenses/by/4.0/
 - Pinned revision: `55b4c002b4c1529fc48da3dff98516c3069bfa3f`
+
+## Sponsor banner
+
+- File: `sponsors/aistylebook-banner.png`
+- Sponsor: **AI Stylebook**
+- Website: https://aistylebook.com
+- Supplied by the project maintainer for sponsor display and copied without modification.
+- Sponsor branding and this banner are excluded from the project's MIT code license; no separate reuse license is granted by this repository.
